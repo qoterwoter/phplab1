@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(254, 255, 204);
+    background: no-repeat;
+}
+
+header {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(images/metro.jpg);
+    background-size: cover;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 17%;
+    font-size: 40px;
+    color: hsl(0, 0%, 0%);
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    font-size: 23px;
+    padding: 0 8px;
+}
+
+header nav {
+    border-radius: 10px;
+    padding: 3px;
+    margin-left: 3%;
+}
+
+a {
+    color: rgb(159, 176, 255);
+    transition: .3s;
+}
+
+a:hover {
+    transition: .5s;
+    color: #f292ff;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#history {
+    background-color: rgba(11, 49, 46, 0.534)
+}
